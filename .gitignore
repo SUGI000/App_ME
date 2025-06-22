@@ -1,10 +1,8 @@
 # .gitignore
 
-# 環境変数ファイル
+# 環境変数ファイル (もし残っていてもアップロードしない)
 .env
-
-# Streamlitの秘密情報ファイル
-.streamlit/secrets.toml
+*.env
 
 # Pythonのキャッシュファイル
 __pycache__/
