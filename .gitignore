@@ -1,0 +1,6 @@
+# APIキーファイル
+.env
+
+# Pythonキャッシュファイル
+__pycache__/
+*.pyc
