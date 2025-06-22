@@ -1,6 +1,16 @@
-# APIキーファイル
+# .gitignore
+
+# 環境変数ファイル
 .env
 
-# Pythonキャッシュファイル
+# Streamlitの秘密情報ファイル
+.streamlit/secrets.toml
+
+# Pythonのキャッシュファイル
 __pycache__/
 *.pyc
+
+# IDEやOSが生成するファイル
+.vscode/
+.idea/
+.DS_Store
